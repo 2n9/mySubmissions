@@ -26,12 +26,12 @@ public class Main {
         Integer[] descending(List<Integer> i){Integer[] k=ascending(i);for(int f=0,l=k.length-1;f<l;f++,l--){int t=k[f];k[f]=k[l];k[l]=t;}return k;}
         boolean match(int... i){for(int k:i)if(i[0]!=k)return false;return true;}
         long cc(String s,char a){long i=0;char t;for(int j=0;j<s.length();j++){if(s.charAt(j)==a)i++;}return i;}
-        long nt(){return System.currentTimeMillis()-st;}
-        void ntt(){a("Time "+nt()+"ms");}
+        void tt(){a("Time "+t()+"ms");}
         Calc(){}
         void done() {
             int n = ni();
             int q = ni();
+            tt();
         }
     }
 }
