@@ -29,9 +29,16 @@ public class Main {
         void tt(){a("Time "+t()+"ms");}
         Calc(){}
         void done() {
-            int n = ni();
-            int q = ni();
-            tt();
+            Scanner sc=new Scanner(System.in);
+            System.out.println("================================");
+            for(int i=0;i<3;i++)
+            {
+                String s1=sc.next();
+                int x=sc.nextInt();
+                System.out.println(String.format("%03d", x));
+                //Complete this line
+            }
+            System.out.println("================================");
         }
     }
 }
